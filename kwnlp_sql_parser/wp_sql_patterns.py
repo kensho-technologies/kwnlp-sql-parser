@@ -1,3 +1,4 @@
+# Copyright 2020-present Kensho Technologies, LLC.
 """Regex patterns and classes for parsing Wikipedia SQL dumps."""
 
 import re

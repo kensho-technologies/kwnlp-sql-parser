@@ -1,3 +1,4 @@
+# Copyright 2020-present Kensho Technologies, LLC.
 """Module for parsing Wikipedia SQL dumps."""
 
 import csv
