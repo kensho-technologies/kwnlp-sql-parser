@@ -357,7 +357,6 @@ _TABLE_COLUMN_PATTERNS = {
         WikipediaSqlColumn("page_id", DIGITS),
         WikipediaSqlColumn("page_namespace", DIGITS),
         WikipediaSqlColumn("page_title", ESCAPED_STRING, unquote=True, unescape=True),
-        WikipediaSqlColumn("page_restrictions", ESCAPED_STRING, unquote=True, unescape=True),
         WikipediaSqlColumn("page_is_redirect", DIGITS),
         WikipediaSqlColumn("page_is_new", DIGITS),
         WikipediaSqlColumn("page_random", FLOAT),
