@@ -1,5 +1,5 @@
 # Copyright 2020-present Kensho Technologies, LLC.
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 
 from kwnlp_sql_parser.wp_sql_dump import WikipediaSqlCsvDialect
 from kwnlp_sql_parser.wp_sql_dump import WikipediaSqlDump

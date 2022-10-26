@@ -257,6 +257,10 @@ class WikipediaSqlDump:
                     )
                     t_batch_start = time.time()
 
+            # catch issue where no lines are matched by regex, indicating upstream format changes
+            if count_row_matches == 0:
+                raise RuntimeError("No matches found, check row regular expression.")
+
             # write any lingering rows
             batch_rows = self.sqlrow.csv_rows_from_matches(batch_matches)
             csv_writer.writerows(batch_rows)
